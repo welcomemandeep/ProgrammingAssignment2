@@ -1,6 +1,6 @@
 ## The two programs should be used in conjunction to get inverse of a matrix
-## First invoke makeCacheMatrix with a matrix to make matrix available as free
-## varibles
+## First invoke makeCacheMatrix with a matrix to get a list containing utility functions 
+## that has getters & setters to matrix and its inverse
 ## matrix2_2<-matrix(c(1,1,-1,2),  nrow=2, ncol=2)
 ## storeMakeCacheMatrix <- makeCacheMatrix(matrix2_2)
 ## Now use cacheSolve to get the inverse of the matrix
